@@ -24,3 +24,4 @@ runs:
       run: |
         go get .
         go install github.com/ctrf-io/go-ctrf-json-reporter/cmd/go-ctrf-json-reporter@latest
+        npm install semantic-release semantic-release-export-data
