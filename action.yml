@@ -11,12 +11,10 @@ runs:
   steps:
     - uses: actions/setup-node@v4
       name: 🔧 Set up Node.js
-      shell: bash
       with:
         node-version: 'latest'
     - uses: actions/setup-go@v5
       name: 🔧 Set up Go ${{ inputs.go-version }}
-      shell: bash
       with:
         go-version: ${{ inputs.go-version }}
     - name: 📦 Install dependencies
